@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.appbar {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(139, 0, 139);
+}
+
+.appbar .logo-container img {
+    width: 100px;
+    height: 100px;
+}
+
+.appbar .navlist {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.appbar .navlist li {
+    list-style: none;
+}
+
+.appbar .navlist li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(244, 169, 169);
+}
