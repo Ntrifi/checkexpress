@@ -12,11 +12,6 @@ body {
     background-color: rgb(139, 0, 139);
 }
 
-.appbar .logo-container img {
-    width: 100px;
-    height: 100px;
-}
-
 .appbar .navlist {
     width: 30%;
     display: flex;

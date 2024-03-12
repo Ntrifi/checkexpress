@@ -1,7 +1,7 @@
 let day = new Date().getDay()
 let hours = new Date().getHours()
 
-const fs= require('fs') ;
+const fs = require('fs');
 
 console.log(day);
 console.log(hours);
@@ -11,8 +11,8 @@ function Verif(req,res, next){
     {next();}
     else
     fs.readFile('./Public/error.html','utf8',(err,data)=>{
-err?res.end('file not found')&& console.error(err):
-res.end(data);
+    err?res.end('file not found')&& console.error(err):
+    res.end(data);
 });
 
 }

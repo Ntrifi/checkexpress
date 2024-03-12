@@ -1,5 +1,6 @@
 //1 require
-const express = require('express')
+const express = require('express');
+const fs = require('fs');
 //2 variable declaration
 const app = express()
 const PORT = '4003'
